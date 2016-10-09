@@ -6,7 +6,7 @@ Give a try to this minimal template with very few dependencies for quick develop
 ## Install
 ``` bash
 # Clone the repository once
-$ git clone pastahito/electron-vue-webpack
+$ git clone https://github.com/pastahito/electron-vue-webpack
 
 # Go into the repository (rename it as you wish)
 $ cd electron-vue-webpack
@@ -30,30 +30,30 @@ You don't really need more stuff to start playing around with Electron, Vue 2 an
 
 - Support for .vue (single file components). Use them with HTML & ES6 & CSS.
 - No Express, neither Babel is needed (more than 97% ES6 is supported in Node/Electron).
-        
+
 ## Template structure
 ```
 ├── electron-vue-webpack/               # Your project's name
 
     ├── app/
-    
+
         ├── build/                      # Webpack will bundle your css/js/img here
-        
+
         ├── src/
-        
+
             ├── assets/                 # Images go here
                 ├── electron.png
                 ├── vue.png
                 ├── webpack.png
-                
+
             ├── components/             # Webcomponents go here
                 ├── Hello.vue
-                
+
             ├── App.vue                 # Vue app. Your global css can go here
             ├── entry.js                # App entry. Your global js can go here
-            
+
         ├── index.html                  # Single Page Application HTML, it only uses build's files
-        
+
     ├── main.js                         # Electron app init
     ├── package.json
     ├── webpack.config.js               # Minimal webpack setup
