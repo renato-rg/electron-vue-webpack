@@ -3,6 +3,8 @@ Got tired finding Electron/Vue2/Webpack2 templates with fancy add-ons you don't 
 
 Give a try to this minimal template with very few dependencies for quick development and prototyping.
 
+![w10 sample](https://cloud.githubusercontent.com/assets/11739632/19222705/0f8c55fc-8e5f-11e6-97fa-0d3943f43358.png)
+
 ## Install
 ``` bash
 # Clone the repository once
@@ -58,3 +60,5 @@ You don't really need more stuff to start playing around with Electron, Vue 2 an
     ├── package.json
     ├── webpack.config.js               # Minimal webpack setup
 ```
+
+
