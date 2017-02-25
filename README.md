@@ -61,4 +61,6 @@ You don't really need more stuff to start playing around with Electron, Vue 2 an
     ├── webpack.config.js               # Minimal webpack setup
 ```
 
-
+## Related
+- [electron-react-webpack](https://github.com/pastahito/electron-react-webpack) -
+Electron template using React instead of Vue 2.
