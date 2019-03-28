@@ -1,17 +1,17 @@
 // Basic init
-const electron = require('electron')
-const {app, BrowserWindow} = electron
+const { app, BrowserWindow } = require('electron');
 
 // Let electron reloads by itself when webpack watches changes in ./app/
-require('electron-reload')(__dirname)
-
-// To avoid being garbage collected
-let mainWindow
+require('electron-reload')(__dirname);
 
 app.on('ready', () => {
+    let mainWindow = new BrowserWindow({
+        width: 800,
+        height: 600,
+        webPreferences: {
+            nodeIntegration: true
+        }
+    });
 
-    let mainWindow = new BrowserWindow({width: 800, height: 600})
-
-    mainWindow.loadURL(`file://${__dirname}/app/index.html`)
-
+    mainWindow.loadURL(`file://${__dirname}/app/index.html`);
 })
