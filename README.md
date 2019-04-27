@@ -1,5 +1,5 @@
-# electron-vue-webpack
-Got tired finding Electron4/Vue2/Webpack4 templates with fancy add-ons you don't really need?
+# Electron Vue Webpack template
+Got tired finding Electron 5 / Vue 2 / Webpack 4 templates with fancy add-ons you don't really need?
 
 Give a try to this minimal template with very few dependencies for quick development and prototyping.
 
