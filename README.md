@@ -1,5 +1,5 @@
-# electron-vue-webpack
-Got tired finding Electron/Vue2/Webpack2 templates with fancy add-ons you don't really need?
+# Electron Vue Webpack template
+Got tired finding Electron 5 / Vue 2 / Webpack 4 templates with fancy add-ons you don't really need?
 
 Give a try to this minimal template with very few dependencies for quick development and prototyping.
 
@@ -28,7 +28,7 @@ $ npm start
 ```
 
 ## What's included
-You don't really need more stuff to start playing around with Electron, Vue 2 and Webpack 2.
+You don't really need more stuff to start playing around with Electron 4, Vue 2 and Webpack 4.
 
 - Support for .vue (single file components). Use them with HTML & ES6 & CSS.
 - No Express, neither Babel is needed (more than 97% ES6 is supported in Node/Electron).

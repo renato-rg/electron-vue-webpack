@@ -1,7 +1,7 @@
 {
   "name": "electron-vue-webpack",
   "version": "1.0.0",
-  "description": "A minimal Electron + Vue 2 + Webpack 2 setup with few dependencies for quick development.",
+  "description": "A minimal Electron 5 + Vue 2 + Webpack 2 setup with few dependencies for quick development.",
   "main": "main.js",
   "scripts": {
     "dev": "webpack",
@@ -11,14 +11,17 @@
   "repository": "pastahito/electron-vue-webpack",
   "license": "WTFPL",
   "dependencies": {
-    "vue": "^2.0.1"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
-    "css-loader": "^0.25.0",
-    "electron": "^1.4.3",
-    "electron-reload": "^1.0.2",
-    "file-loader": "^0.9.0",
-    "vue-loader": "^9.5.1",
-    "webpack": "^2.1.0-beta.22"
+    "css-loader": "^2.1.1",
+    "electron": "^5.0.0",
+    "electron-reload": "^1.4.0",
+    "file-loader": "^3.0.1",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
   }
 }
